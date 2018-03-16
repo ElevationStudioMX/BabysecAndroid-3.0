@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665898322602",
+    "firebase_url": "https://babysec-mexico-app.firebaseio.com",
+    "project_id": "babysec-mexico-app",
+    "storage_bucket": "babysec-mexico-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665898322602:android:ca4a3d680eecce5e",
+        "android_client_info": {
+          "package_name": "com.babysec.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665898322602-pmkldsov24su13jh65dh22brfldv1tp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babysec.app",
+            "certificate_hash": "3fee400d7c409787033ae8add1ee785f15fe9322"
+          }
+        },
+        {
+          "client_id": "665898322602-hea16412vfd1t41fibu5hreojp01b0s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXP8uDweqVPNlmA5bfdLbuGrtU8hs3elE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665898322602-hea16412vfd1t41fibu5hreojp01b0s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

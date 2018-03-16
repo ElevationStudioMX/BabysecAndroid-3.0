@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desarrollo_elevation.viveelite.com.example.desarrollo_elevation.babysec.MainActivity_principal" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/back_inicio_2" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarprincipal"
+
+            android:title="Galeria"
+            android:titleTextColor="#fff"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/back_header"
+            android:minHeight="?attr/actionBarSize"
+            tools:ignore="UnusedAttribute"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            >
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/logo"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="50dp"
+            android:id="@+id/button_memories"
+            android:clickable="true"
+            android:onClick="click_memories"
+            android:src="@drawable/button_memory" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="50dp"
+            android:id="@+id/button_recordatorios"
+            android:clickable="true"
+            android:onClick="click_recordatorios"
+            android:layout_below="@+id/button_memories"
+            android:src="@drawable/button_recordatorios"/>
+
+    </RelativeLayout>
+</FrameLayout>
