@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:665898322602:android:ca4a3d680eecce5e",
         "android_client_info": {
-          "package_name": "com.babysec.app"
+          "package_name": "com.babysec.absormex.app"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "665898322602-pmkldsov24su13jh65dh22brfldv1tp1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.babysec.app",
+            "package_name": "com.babysec.absormex.app",
             "certificate_hash": "3fee400d7c409787033ae8add1ee785f15fe9322"
           }
         },
